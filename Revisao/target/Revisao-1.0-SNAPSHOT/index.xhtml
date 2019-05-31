@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>hello man</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="/templates/common.xhtml">
+            <ui:define name="content">
+                <div class="center">
+                    <h:form>
+
+                        <p:panelGrid id="grid" class="ui-custompanelgrid" columns="2">
+                            <p:outputLabel style="color: white;" value="Usuário:" />
+                            <p:inputText />
+
+                            <p:outputLabel style="color: white;" value="Senha:"/>
+                            <p:password />
+
+                            <p:outputLabel />
+                            <p:commandButton value="Entrar" update="grid" />
+
+                            <p:outputLabel />
+                            <p:commandButton value="Não é cadastrado?"  />
+                        </p:panelGrid>
+                    </h:form>
+                </div> 
+
+            </ui:define>
+
+        </ui:composition>
+    </h:body>
+</html>
+

@@ -1,0 +1,35 @@
+.top{
+  float : top;
+  background-color:#CCEEFF;
+  border:medium black solid;
+  margin: auto;
+  text-align:center;
+  font-size: 45px;
+  color: #3C05D4;
+}
+
+.footer{
+  background-color: #CCEEFF; 
+  margin-top: 30px;
+  font-size: 30px;
+  text-align:center;
+}
+
+.center{
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right:40%;
+  background-color: gray;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*mudar o background do panel grid */
+.ui-custompanelgrid, .ui-custompanelgrid td {
+font-weight: bold;
+background: #373737 ;
+/*background-color: #a8a7a8 !important;*/  /*outra forma*/
+font-size: 25px; /*tamanho da fonte do panelGrid*/
+
+
+}
